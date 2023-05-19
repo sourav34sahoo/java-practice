@@ -20,7 +20,10 @@ class Array
 	int[] x5=new int[0];
 	System.out.println(x5.getClass().getName());
 	
-	int[] x6=new int[2147483647];
+	int[] x6=new int[214748364];
 	System.out.println(x6.getClass().getName());
+	
+	boolean[] x7=new boolean[2];
+	System.out.println(x7.getClass().getName());
   }
 }  
