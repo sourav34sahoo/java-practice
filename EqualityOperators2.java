@@ -1,9 +1,9 @@
 class EqualityOperators2
 {
 	public static void main(String... args){
-		object o1 = new object();
+		Object o1 = new Object();
 		Thread s1 = new Thread();
 		String s2 = new String("sourav");
-		System.out.println(t1==s2);
+		System.out.println(s1==s2);
 	}
 }
