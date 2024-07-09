@@ -1,9 +1,8 @@
-class TypeCasting
+class TypeCasting2
 {
 	public static void main(String...args)
 	{
 		Object o = new String("sourav");
-		StringBuffer s = (StringBuffer)o;
+		String s =(String)o;
 	}
 }
-// A b = (c) d;
