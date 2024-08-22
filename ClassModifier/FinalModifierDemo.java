@@ -17,4 +17,5 @@ class Child extends FinalModifierDemo
 	}
 }
 
-// marry() in Child cannot override marry() in FinalModifierDemo; override method is final 
+// marry() in Child cannot override marry() in FinalModifierDemo; override method is final
+// if a method declare as the final then we are not allowed override that method in the child class" 
