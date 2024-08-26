@@ -13,3 +13,8 @@ class ParentC extends ParentClass
 	}
 }
 
+//within the current package we ca access protected members either by parent reference or by child reference.
+
+//But from outside package we can access protected members only by using child reference, if we are trying to use parent reference we will get C.E .
+
+// private < default < protected < public
