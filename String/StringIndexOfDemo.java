@@ -7,5 +7,7 @@ class StringIndexOfDemo
 		System.out.println(s.indexOf('m'));  // -1
 		
 		System.out.println(s.indexOf('g'));  // 0
+		
+		System.out.println(s.lastIndexOf('g'));  // 4
 	}
 }
