@@ -4,6 +4,7 @@ class FinalVsImmutable
 		final StringBuffer sb = new StringBuffer("sourav");
 		sb.append("sahoo");
 		System.out.println(sb);  //souravsahoo		
+		sb = new StringBuffer("kumar");
 	}
 }
 
