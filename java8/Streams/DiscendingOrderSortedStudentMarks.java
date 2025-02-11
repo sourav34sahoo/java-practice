@@ -11,7 +11,11 @@ class DiscendingOrderSortedStudentMarks
 		marks.add(20);
 		marks.add(25);
 		System.out.println(marks);
-		List<Integer> sortedList = marks.stream().sorted((i1,i2)->(i1<i2)?1:(i1>i2)?-1:0).collect(Collectors.toList());
+		//List<Integer> sortedList = //marks.stream().sorted((i1,i2)->(i1<i2)?1:(i1>i2)?-1:0).collect(Collectors.toList());
+		
+		//List<Integer> sortedList = marks.stream().sorted((i1,i2)-> //-i1.compareTo(i2)).collect(Collectors.toList());
+		
+		List<Integer> sortedList = marks.stream().sorted((i1,i2)->i2.compareTo(i1)).collect(Collectors.toList());
 		System.out.println(sortedList);
 	}
 }
