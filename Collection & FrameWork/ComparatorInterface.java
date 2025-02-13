@@ -11,4 +11,4 @@ class ComparatorInterface
 		t.add(10);
 		System.out.println(t);
 	}
-}
+} 

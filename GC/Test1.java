@@ -7,6 +7,6 @@ class Test1
 	{
 		Student s1 = new Student();
 		Student s2 = new Student();
-		reyurn s1;
+		return s1;
 	}
 }

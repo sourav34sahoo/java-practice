@@ -7,4 +7,4 @@ public class PublicMembersDemo2
 	}
 }
 
-// if we declare a member as public then we can access that member from anywhere but coresponding class should be visible (public) i.e before checking member visibility we have to check class visibility. 
+// if we declare a member as public then we can access that member from anywhere but coresponding class should be visible (public) i.e before checking member visibility we have to check class visibility.  

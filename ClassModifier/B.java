@@ -19,3 +19,4 @@ public class PublicClassDemo
 }*/
 
 /* if we are not declaring class PublicClassDemo as public we will get Compile time error while compiling B , saying pack1.PublicClassDemo is not public in pack1; can't be accessed from outside package8*/
+ 

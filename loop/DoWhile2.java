@@ -7,6 +7,6 @@ class DoWhile2
 			System.out.println("hello");
 		}
 		while(false);
-		System.out.println("hii");
+		System.out.println("hii");n
 	}
 }

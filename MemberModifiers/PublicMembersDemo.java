@@ -15,7 +15,7 @@ class B
 {
 	public static void main(String...args)
 	{
-		PublicMembersDemo PMD = new PublicMembersDemo
+		PublicMembersDemo PMD = new PublicMembersDemo();
 		PMD.m1();   // got error 
 	}
 }

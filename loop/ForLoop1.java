@@ -5,7 +5,7 @@ class ForLoop1
 		int i=0;
 		for (System.out.print("hello u r sleeping");i<3;i++)
 		{
-			System.out.println("  no boss u only sleeping");
+			System.out.println("  nno boss u only sleeping");
 		}
 	}
 }

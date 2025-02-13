@@ -18,7 +18,7 @@ class MyThread extends Thread
 	String name;
 	MyThread(Display d,String name)
 	{
-		this.d = d;
+		this .d = d;
 		this .name=name;
 	}
 	public void run(){

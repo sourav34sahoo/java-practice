@@ -13,10 +13,10 @@ class Triangle
 	    int angelC = sc.nextInt();
 	
 	    if (angelA == angelB && angelA == angelC){
-			System.out.println(angelA +""+ angelB +""+ angelC + "The triangle is Equilateral");
+			System.out.println(angelA +" , "+ angelB +" , "+ angelC + " The triangle is Equilateral");
 		}
 		else{
-		System.out.println(angelA +""+ angelB +"" +angelC + "The triangle is not Equilateral");
+		System.out.println(angelA +" , "+ angelB +" , " +angelC + " The triangle is not Equilateral");
 		}
 	}
 }

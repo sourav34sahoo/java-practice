@@ -25,7 +25,7 @@ class EmployeeDetails
 		//Collections.sort(l,(e1,e2)->e1.name.compareTo(e2.name));  
 		                         // [kumar:3257, rimi:1679, sahoo:6432, sourav:8734]
 		
-		//Collections.sort(l,(e1,e2)->(e1.eno<e2.eno)?-1:(e1.eno>e2.eno)?1:0); 
+		Collections.sort(l,(e1,e2)->(e1.eno<e2.eno)?-1:(e1.eno>e2.eno)?1:0); 
 		                        // [rimi:1679, kumar:3257, sahoo:6432, sourav:8734]
 		System.out.println(l);  
 	}

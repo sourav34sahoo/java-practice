@@ -18,5 +18,6 @@ class Test2
 	{
 		Parent2 p = new Child();
 		p.m1();
+		//p.m2();
 	}
 }

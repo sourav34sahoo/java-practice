@@ -7,5 +7,3 @@ class Purspective1
 		System.out.println(MAX_VALUE);
 	}
 }
-	
-		

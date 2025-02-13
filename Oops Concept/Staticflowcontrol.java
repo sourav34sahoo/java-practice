@@ -1,6 +1,5 @@
 class Staticflowcontrol
 {
-	static int x = 10;
 	static 
 	{
 		m1();
@@ -17,7 +16,9 @@ class Staticflowcontrol
 	}
 	static
 	{
+		m1();
 		System.out.println("SSB");
 	}
 	static int y =20;
 }
+

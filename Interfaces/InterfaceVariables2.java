@@ -4,7 +4,7 @@ interface InterfaceVariables2
 }
 class Test implements InterfaceVariables2
 {
-	public static void main(String[] args)
+	public static void main(String...args)
 	{
 		int x =88;
 		System.out.println(x);

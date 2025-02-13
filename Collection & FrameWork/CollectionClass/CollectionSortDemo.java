@@ -10,8 +10,8 @@ class CollectionSortDemo
 		l.add("N");
 		//l.add(new Integer(10));  -->CCE
 		//l.add(null);  -->NPE
-		System.out.println("Before Sorting"+l);
+		System.out.println("Before Sorting"+l); //[Z A K N]
 		Collections.sort(l);
-		System.out.println("After Sorting"+l);
+		System.out.println("After Sorting"+l);  //[A K N Z]
 	}
 }

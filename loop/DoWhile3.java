@@ -8,6 +8,6 @@ class DoWhile3
 			System.out.println("hii");
 		}
 		while(a<b);
-		System.out.println("hii");
+		System.out.println("hello");
 	}
 }

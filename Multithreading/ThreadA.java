@@ -16,6 +16,7 @@ class ThreadB extends Thread
 	int total = 0;
 	public void run()
 	{
+		System.out.println("Starting run method");
 		synchronized(this) {
 			System.out.println("Child thread start notification");    // 2
 			for(int i=1; i<=100; i++){

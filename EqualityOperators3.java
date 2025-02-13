@@ -1,4 +1,4 @@
-class EqualityOperators3
+class EqualityOperators3\
 {
 	public static void main(String... args){
 		Object o1 = new Object();

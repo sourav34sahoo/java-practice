@@ -7,8 +7,8 @@ class VarargMethod
 	public static void main (String...args)
 	{
 		m1();
-		m1(10);
-		m1(10,20);
-		m1(10,20,30,40);
+		m2(10);
+		m3(10,20);
+		m4(10,20,30,40);
 	}	
 }

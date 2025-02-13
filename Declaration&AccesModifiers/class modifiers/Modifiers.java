@@ -1,4 +1,4 @@
-private class Modifiers
+class Modifiers
 {
 	public static void main (String...args){
 		int x = 0;
