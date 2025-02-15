@@ -2,6 +2,7 @@ import java.util.concurrent.*;
 import java.util.*;
 class COWALMyThread extends Thread
 {
+	// ArrayList l = new ArrayList();  --> ConcurrentModificationException
 	
 	static CopyOnWriteArrayList l = new CopyOnWriteArrayList();
 	public void run() {
